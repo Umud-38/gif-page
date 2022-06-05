@@ -1,0 +1,50 @@
+nav {
+   padding: 6px 0;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+nav .container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+nav a {
+   text-decoration: none;
+}
+
+nav ul {
+   display: flex;
+   align-items: center;
+   gap: 30px;
+}
+
+nav ul li {
+   list-style-type: none;
+   cursor: pointer;
+   font-size: 18px;
+   display: flex;
+   align-items: center;
+}
+
+nav .active {
+   color: red;
+}
+
+nav button {
+   font-size: 15px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   padding: 8px 14px;
+   background: #09635d;
+   border-radius: 5px;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+   text-transform: uppercase;
+   transition: 0.1s;
+}
+
+nav button:hover {
+   background: #0d948b;
+}
